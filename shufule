@@ -1,0 +1,8 @@
+list=[]
+while True:
+    item=input("输入元素：")
+    if item=='q':
+        break
+    else:
+        list.append(item)
+print(list)
